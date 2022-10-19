@@ -98,7 +98,6 @@ if __name__ == '__main__':
     parser.add_argument('--val_step', type=int, default=2)
 
     # misc
-    parser.add_argument('--mode', type=str, default='test')
     parser.add_argument('--model_type', type=str, default='U_Net', help='U_Net/R2U_Net/AttU_Net/R2AttU_Net')
     parser.add_argument('--model_path', type=str, default='./models')
     parser.add_argument('--train_path', type=str, default='../train_data')
